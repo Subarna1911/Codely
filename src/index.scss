@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+:root{
+  --color-primary:#030014;
+  --color-light: #cecefb;
+  --color-light-gray: #a8b5db;
+  --color-white:#ffe;
+  --color-gray: #9ca4ab;
+  --color-dark: #0f0d23;
+  --text-gradient:linear-gradient(to right, #D6C7FF, #AB8BFF);
+  --gradient:linear-gradient(98.37deg, #5c1d9e 0.99%, #9e3dff 100%);
+}
+
+
+body{
+  font-family: "DM Sans", serif;
+  font-optical-sizing: auto;
+  background:var(--color-primary);
+  overflow-x: hidden;
+}
+
+.section-padding{
+  padding: 70px 0 !important;
+}
+
