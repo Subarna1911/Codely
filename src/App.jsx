@@ -44,7 +44,7 @@ const App = () => {
     let allGenres = {};
 
     endPoints.forEach((url) => {
-      promises.push(fetchDataFromApi(`/genre/${url}/list`));
+      promises.push(fetchMoviesFromApi(`/genre/${url}/list`));
     });
 
     const data = await Promise.all(promises);
